@@ -14,10 +14,6 @@ necesario, proponer nuevas conexiones de amistad para aumentar la conectividad d
 Python 3.x
 Librerías estándar de Python (no se requieren librerías externas)
 
-## Requisitos
-Python 3.x
-Librerías estándar de Python (no se requieren librerías externas)
-
 ## Algoritmo
 El algoritmo principal se basa en la búsqueda en profundidad (DFS) para detectar los grumos en la red. Los pasos son:
 - Lectura del archivo de datos: Se lee el archivo de conexiones y se crea una lista de conexiones.

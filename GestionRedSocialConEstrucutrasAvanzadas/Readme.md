@@ -1,24 +1,24 @@
-Práctica II - Curso 2021/22: La Red Social CARALIBRO™
+# Práctica II - Curso 2021/22: La Red Social CARALIBRO™
 
-Introducción
+## Introducción
 En esta segunda práctica, el objetivo es optimizar la aplicación desarrollada en la primera práctica
 para que pueda manejar situaciones reales con hasta 1.000.000.000 de usuarios. La optimización se centrará
 en reducir el tiempo de ejecución mediante el uso de estructuras de datos avanzadas.
 
-Descripción del Proyecto
+## Descripción del Proyecto
 La aplicación debe analizar la red social, detectar los grupos de usuarios (grumos) y proponer nuevas 
 conexiones de amistad para aumentar la conectividad de la red, utilizando estructuras de datos más eficientes.
 
-Requisitos
-Python 3.x
-Librerías estándar de Python (no se requieren librerías externas)
+## Requisitos
+- Python 3.x
+- Librerías estándar de Python (no se requieren librerías externas)
 
-Uso
+## Uso
 - Coloca el archivo de datos con las conexiones de amistad en la carpeta data/.
 - Ejecuta el archivo main.py y sigue las instrucciones en pantalla para proporcionar el nombre del archivo 
   de datos y el porcentaje mínimo de usuarios que deben estar en el grumo más grande.
 
-Algoritmo
+## Algoritmo
 El algoritmo principal se basa en la búsqueda en profundidad (DFS) para detectar los grumos en la red. Los pasos son:
 
 - Lectura del archivo de datos: Se lee el archivo de conexiones y se crea una lista de conexiones.
@@ -27,6 +27,5 @@ El algoritmo principal se basa en la búsqueda en profundidad (DFS) para detecta
 - Propuesta de nuevas conexiones: Si el grumo más grande no cumple con el porcentaje mínimo requerido, se proponen nuevas 
   conexiones para unir los grumos más grandes.
 
-Optimización
-Para mejorar la eficiencia, utilizamos estructuras de datos avanzadas como treaps, k-d trees, fibonacci heap, suffix 
-tree, disjoint sets, van Emde Boas priority queue, o Shor algorithm.
+## Optimización
+Para mejorar la eficiencia, utilizamos estructuras de datos avanzadas como disjoint sets, pero también he implementado mi propia estructura de diccionario, y también el array de bits. 

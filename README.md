@@ -3,5 +3,8 @@ funny memes are distributed efficiently.
 
 The application should analyze the social network, detect clusters of users (clumps) and, if necessary, propose new friendship connections to increase network connectivity.
 
+## SVM with Common Structures
+
 ## SNM with Advanced Structures
-- 
+- Improved efficiency, going from O(n^2) to O(nlogn) or lower
+
